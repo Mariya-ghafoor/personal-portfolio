@@ -10,8 +10,8 @@ function Navbar() {
       <NavLink className={linkStyles} to="/">
         Home
       </NavLink>
-      <NavLink className={linkStyles} to="/about">
-        About
+      <NavLink className={linkStyles} to="/techstack">
+        TechStack
       </NavLink>
       <NavLink className={linkStyles} to="/contact">
         Contact

@@ -10,6 +10,7 @@ function ProjectCard({ project }) {
       <div>
         <h3>{project.title}</h3>
         <p className={styles.project__desc}>{project.desc}</p>
+        <p>techstack: {project.techStack}</p>
         <span>
           <a href={project.ghLink} target="_blank" rel="noreferrer">
             <i className={`${styles.project__icon} fa-brands fa-github`}></i>

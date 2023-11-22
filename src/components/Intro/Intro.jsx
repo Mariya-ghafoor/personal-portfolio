@@ -22,7 +22,7 @@ function Intro() {
       </span>
       <span>
         {" "}
-        and wonder about marvels of life{" "}
+        and wonder about the marvels of life{" "}
         <i className={`${styles.iconone} fa-solid fa-earth-americas`}></i>
       </span>
     </div>
