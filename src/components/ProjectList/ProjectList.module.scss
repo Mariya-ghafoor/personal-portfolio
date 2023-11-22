@@ -1,0 +1,13 @@
+.projectList__container {
+  margin-top: 100px;
+  // display: flex;
+  // flex-wrap: wrap;
+  // justify-items: center;
+  // align-items: center;
+  // font-size: 2rem;
+  // gap: 1rem;
+  display: grid;
+  //grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}

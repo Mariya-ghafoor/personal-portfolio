@@ -1,0 +1,20 @@
+.nav {
+  font-family: "Ubuntu", sans-serif;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin: 0.5rem;
+}
+
+.link {
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-decoration: none;
+  &:hover {
+    color: rgb(254, 84, 84);
+  }
+}
+
+.active_link {
+  text-decoration: underline;
+}

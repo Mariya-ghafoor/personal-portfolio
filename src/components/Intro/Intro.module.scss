@@ -1,0 +1,28 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.5rem;
+  font-family: "Comic Neue", cursive;
+}
+
+h2 {
+  font-family: "Montez", cursive;
+  color: rgb(254, 84, 84);
+  font-size: 4rem;
+}
+
+.iconone {
+  &:hover {
+    color: rgb(254, 84, 84);
+    transform: rotate(20deg);
+  }
+}
+
+.icontwo {
+  &:hover {
+    color: rgb(254, 84, 84);
+    transform: rotate(340deg);
+  }
+}
