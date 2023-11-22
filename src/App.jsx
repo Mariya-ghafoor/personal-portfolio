@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar/Navbar";
 import HomePage from "./pages/HomePage/HomePage";
 import "./App.css";
 import TechstackPage from "./pages/TechstackPage/TechstackPage";
+import ContactPage from "./pages/ContactPage/ContactPage";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/techstack" element={<TechstackPage />} />
+            <Route path="/contact" element={<ContactPage />} />
           </Routes>
         </div>
       </div>
