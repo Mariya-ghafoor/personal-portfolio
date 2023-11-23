@@ -36,10 +36,7 @@ function TechstackPage() {
             </div>
           </div>
         </div>
-        <img
-          className={styles.techstack__image}
-          src="../src/assets/frontend.png"
-        />
+        <img className={styles.techstack__image} src="/assets/frontend.png" />
       </div>
 
       <div className={styles.container}>
@@ -67,10 +64,7 @@ function TechstackPage() {
             </div>
           </div>
         </div>
-        <img
-          className={styles.techstack__image}
-          src="../src/assets/backend.png"
-        />
+        <img className={styles.techstack__image} src="/assets/backend.png" />
       </div>
     </div>
   );

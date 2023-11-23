@@ -6,7 +6,7 @@ function ProjectList() {
     {
       id: 1,
       title: "full stack app",
-      image: "../src/assets/EmployeeCreatorApp.png",
+      image: "/assets/EmployeeCreatorApp.png",
       desc: "a full stack app that allows the user to perform crud operations on a mysql database",
       techStack: "frontend: react + typescript. backend: spring boot + mysql",
       ghLink: "https://github.com/Mariya-ghafoor/employee-creator-frontend",
@@ -15,7 +15,7 @@ function ProjectList() {
     {
       id: 2,
       title: "e-commerce website",
-      image: "../src/assets/ecommerce-website.png",
+      image: "/assets/ecommerce-website.png",
       desc: "an online shopping website where users can not only view products of different variances but also ‘buy’ products stored on a remote database",
       techStack: "frontend: react, database: firestore",
       ghLink: "https://github.com/Mariya-ghafoor/e-commerce-website",
@@ -24,7 +24,7 @@ function ProjectList() {
     {
       id: 3,
       title: "minesweeper",
-      image: "../src/assets/minesweeper.png",
+      image: "/assets/minesweeper.png",
       desc: "the classic game of minesweeper with the ability to customise the size of the mine and includes cascading affect when no mines around",
       techStack: "java",
       ghLink: "https://github.com/Mariya-ghafoor/minesweeper-game",
@@ -33,7 +33,7 @@ function ProjectList() {
     {
       id: 4,
       title: "snake game",
-      image: "../src/assets/snake-game.png",
+      image: "/assets/snake-game.png",
       desc: "this classic snake game does not only trace the path of the snake but also keeps tab of the score.",
       techStack: "python",
       ghLink: "https://github.com/Mariya-ghafoor/SnakeGame/tree/master",
@@ -42,7 +42,7 @@ function ProjectList() {
     {
       id: 5,
       title: "books search engine",
-      image: "../src/assets/books-search-engine.png",
+      image: "/assets/books-search-engine.png",
       desc: "a search engine that queries google books api, displays the result and provides further information when user clicks on a book",
       techStack: "react js",
       ghLink: "https://github.com/Mariya-ghafoor/books-search-engine",
@@ -51,7 +51,7 @@ function ProjectList() {
     {
       id: 5,
       title: "morse code translator",
-      image: "../src/assets/morse-translator.png",
+      image: "/assets/morse-translator.png",
       desc: "an app that automatically detects the language and translate to either morse code or english",
       techStack: "html, css, javascript",
       ghLink: "https://github.com/Mariya-ghafoor/morse-translator",
