@@ -3,22 +3,23 @@
   display: flex;
   justify-content: flex-end;
   gap: 1rem;
-  margin: 0.5rem;
+  padding: 0.2rem;
 }
 
 .link {
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   text-decoration: none;
   &:hover {
     text-decoration: underline;
+  }
+  @media only screen and (max-width: 600px) {
+    font-size: 1rem;
   }
 }
 
 .active_link {
   background-image: url("/assets/active_link.png");
   background-repeat: no-repeat;
-  background-position-x: -7px;
   background-size: cover;
-  //background-size: 140%;
 }

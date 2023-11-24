@@ -9,6 +9,7 @@ function ContactPage() {
         <div className={styles.contact__container}>
           <a
             className={styles.contact__link}
+            style={{ "margin-top": "30px" }}
             href="mailto:mariya.aghafoor@gmail.com"
             target="_blank"
             rel="noreferrer"
