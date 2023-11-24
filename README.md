@@ -1,8 +1,26 @@
-# React + Vite
+# Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Live: https://mariya-ghafoor-portfolio.netlify.app/
 
-Currently, two official plugins are available:
+## Purpose
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- The website is a way to showcase personal projects and skills
+
+## TechStack
+
+- The portfolio is built on React js with SCSS providing styling
+
+## Design Goals
+
+- The goal was to be minimalist yet creative
+
+## Features
+
+- Home Page provides a short intro along with a list of projects completed and their live and Github links
+- Techstack page provides a list of the skills
+- Contact page provides ways to contact me
+
+## Future goals
+
+- Make it more interactive
+- Add Hamburger menu
