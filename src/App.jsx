@@ -8,15 +8,13 @@ import ContactPage from "./pages/ContactPage/ContactPage";
 function App() {
   return (
     <BrowserRouter>
-      <div className="main">
-        <Navbar />
-        <div className="container">
-          <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/techstack" element={<TechstackPage />} />
-            <Route path="/contact" element={<ContactPage />} />
-          </Routes>
-        </div>
+      <Navbar />
+      <div className="container">
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/techstack" element={<TechstackPage />} />
+          <Route path="/contact" element={<ContactPage />} />
+        </Routes>
       </div>
     </BrowserRouter>
   );

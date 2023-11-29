@@ -11,9 +11,7 @@
 
 .container {
   grid-column-start: 2;
-  @media only screen and (max-width: 600px) {
-    gap: 3rem;
-  }
+  
 }
 
 .heading {
