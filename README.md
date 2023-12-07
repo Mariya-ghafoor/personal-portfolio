@@ -1,9 +1,10 @@
 # Personal Portfolio
 
--This is an older version of my portfolio.
+## This is an older version of my portfolio.
 
-- Old portfolio live: https://mariya-aghafoor.netlify.app/
+
 - New portfolio live: https://mariya-ghafoor-portfolio.netlify.app/
+- - Old portfolio live: https://mariya-aghafoor.netlify.app/
 
 ## Purpose
 
